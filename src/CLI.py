@@ -2,7 +2,7 @@
 
 import sys
 import click
-from src.calculator import add, subtract, multiply, divide, power, square_root
+from calculator import add, subtract, multiply, divide, power, square_root
 
 
 @click.command()
