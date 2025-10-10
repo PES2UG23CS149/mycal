@@ -1,7 +1,3 @@
-"""
-Command Line Interface for Calculator
-Example: python src/cli.py add 5 3
-"""
 import sys
 import click
 from calculator import add, subtract, multiply, divide, power, square_root 
@@ -34,3 +30,5 @@ def calculate(operation, num1, num2=None):
         sys.exit(1) 
 if __name__ == '__main__': 
  calculate()
+ 
+ 
